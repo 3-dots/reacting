@@ -1,0 +1,30 @@
+{
+  "name": "reacting",
+  "version": "0.0.0",
+  "description": "A collection of simple, isolated, independent, progressive react components that are easy to use and customize!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3-dots/reacting.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "modules",
+    "simple",
+    "pretty",
+    "customizable",
+    "js",
+    "css",
+    "jsx",
+    "component",
+    "progressive"
+  ],
+  "author": "mim.Armand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3-dots/reacting/issues"
+  },
+  "homepage": "https://github.com/3-dots/reacting#readme"
+}
