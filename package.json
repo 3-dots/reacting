@@ -1,8 +1,8 @@
 {
-  "name": "reacting",
-  "version": "0.0.0",
+    "name": "reacting",
+  "version": "0.0.2",
   "description": "A collection of simple, isolated, independent, progressive react components that are easy to use and customize!",
-  "main": "index.js",
+  "main": "./build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3-dots/reacting.git"
@@ -21,10 +21,41 @@
     "component",
     "progressive"
   ],
-  "author": "mim.Armand",
+  "author": "mim.Armand <mim3dot+reacting@gmail.com> (http://Armand.Eu)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/3-dots/reacting/issues"
   },
-  "homepage": "https://github.com/3-dots/reacting#readme"
+  "homepage": "https://github.com/3-dots/reacting#readme",
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-hot-loader": "^3.0.0-beta.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.18.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-es2015-parameters": "^6.18.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js",
+    "start": "node server.js"
+  }
 }
